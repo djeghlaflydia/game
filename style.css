@@ -11,15 +11,15 @@ body {
 .tout {
     margin-top: 4vw;
     text-align: center;
-    position: absolute; /* Position absolue pour centrer */
-    top: 50%; /* Déplacer vers le haut de 50% du viewport */
-    left: 50%; /* Déplacer vers la gauche de 50% du viewport */
-    transform: translate(-50%, -50%); /* Ajuster de moitié de sa propre taille */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px solid rgb(41, 14, 110);
     box-shadow: 3px 3px 4px;
-    border-radius: 1vw; /* Utilisation d'unités relatives */
-    padding: 2vw; /* Utilisation d'unités relatives */
-    max-width: 80vw; /* Limiter la largeur maximale du conteneur */
+    border-radius: 1vw;
+    padding: 2vw;
+    max-width: 80vw;
     width: 60vw;
 }
 
@@ -28,10 +28,9 @@ body {
     display: flex;
 }
 .OptionButton{
-    /*margin-left: -53vw;*/
-    padding: 0.5vw 1vw; /* Utilisation d'unités relatives */
-    font-size: 1.2vw; /* Utilisation d'unités relatives */
-    border-radius: 1vw; /* Utilisation d'unités relatives */
+    padding: 0.5vw 1vw; 
+    font-size: 1.2vw;
+    border-radius: 1vw;
     background-color: rgba(240, 248, 255, 0.664);
     font-weight: 750;
 }
@@ -46,7 +45,7 @@ body {
 #time{
     display: block;
     text-align: center;
-    font-size: 8vw; /* Utilisation d'unités relatives */
+    font-size: 8vw;
     font-family: Helvetica;
     color: rgb(252, 252, 252);
 }
@@ -82,7 +81,7 @@ h3{
 .Label{
     display: block;
     text-align: center;
-    font-size: 8vw; /* Utilisation d'unités relatives */
+    font-size: 8vw;
     font-family: Helvetica;
     color: rgb(209, 231, 250);
 }
@@ -91,13 +90,13 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1vw; /* Utilisation d'unités relatives */
+    padding: 1vw; 
 }
 .button {
-    padding: 1vw 2vw; /* Utilisation d'unités relatives */
-    font-size: 1.5vw; /* Utilisation d'unités relatives */
+    padding: 1vw 2vw;
+    font-size: 1.5vw;
     color: rgb(47, 16, 120);
-    border-radius: 1vw; /* Utilisation d'unités relatives */
+    border-radius: 1vw;
     cursor: pointer;
     transition: background-color 0.25s;
     font-weight: 600;
