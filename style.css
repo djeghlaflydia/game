@@ -118,9 +118,11 @@ h3{
     font-size: 2vw;
 }
 #I1{
-    width: 20vw;
+    font-size: 2vw;
     background-color: rgba(240, 248, 255, 0.795);
 }
 #B1{
     background-color: rgba(240, 248, 255, 0.795);
+    font-size: 1.8vw;
 }
+
