@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gamer zone</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="start">
+    <h1 id="h11" style="color: brown;"> Welcome</h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <label style="color: rgb(123, 21, 219);">username</label>
+    <input id="I1" required>
+    <button id="B1">submit</button>
+    </div>
+
+    
+    <div class="tout">
+        <h2 id="win">LET'S PLAY</h3>
+        <!--pause/reset-->
+        <div class="OptionCont">
+            <!--pause-->
+            <div class="option">
+                <button id="PauseBtn" class="OptionButton" onclick="pauseResume()">Pause</button>
+            </div>
+            <!--replay-->
+            <div class="option">
+                <button id="ReplayBtn" class="OptionButton">Replay</button>
+            </div>
+        </div>
+        <br>
+        <!--timer-->
+        <h3>Timer</h3>
+        <div id="timer" class="btncent">
+            <label id="time" class="Label">0</label><br>
+        </div>
+
+        <div class="container">
+            <!--nb_aleatoire-->
+            <div id="btnAleatoir" class="btncent">
+                <label id="SLabel" class="Label">0</label><br>
+                <button id="startBtn" class="button">Play</button>
+            </div>
+
+            <!--conteur-->
+            <div id="btnContainer" class="btncent">
+                <label id="contLabel" class="Label">0</label><br>
+                <button id="decreaseBtn" class="button">decrease</button>
+                <button id="resetBtn" class="button">reset</button>
+                <button id="increaseBtn" class="button">increase</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
