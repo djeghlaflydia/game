@@ -126,3 +126,84 @@ h3{
     font-size: 1.8vw;
 }
 
+
+
+
+/*grand ecrans*/
+@media (min-width: 768px) {
+    .tout {
+        margin: auto;
+        margin-top: 2vw;
+        text-align: center;
+        border: 2px solid rgb(41, 14, 110);
+        box-shadow: 3px 3px 4px;
+        border-radius: 1vw;
+        padding: 2vw;
+        max-width: 80vw;
+        width: 60vw;
+    }
+
+    #h11{
+        font-size: 2.5vw;
+        color: brown;
+    }
+    #usernom{
+        color: rgb(123, 21, 219);
+        font-size: 1.5vw;
+    }
+    #I1{
+        font-size: 1vw;
+        background-color: rgba(240, 248, 255, 0.795);
+    }
+    #B1{
+        background-color: rgba(240, 248, 255, 0.795);
+        font-size: 1vw;
+    }
+    .OptionButton{
+        /*margin-left: -53vw;*/
+        padding: 0.5vw 1vw;
+        font-size: 1vw; 
+        border-radius: 1vw;
+        background-color: rgba(240, 248, 255, 0.664);
+        font-weight: 600;
+    }
+
+    #ReplayBtn{
+        margin-left: 48vw;
+    }
+    
+    #time{
+        display: block;
+        text-align: center;
+        font-size: 6vw; 
+        font-family: Helvetica;
+        color: rgb(252, 252, 252);
+    }
+    h2{
+        color: rgb(185, 15, 15);
+        margin: auto ;
+        font-size: 3vw;
+    }
+    h3{
+        color: aliceblue;
+        margin: auto ;
+        font-size: 2vw;
+    }
+    .Label{
+        display: block;
+        text-align: center;
+        font-size: 6vw; 
+        font-family: Helvetica;
+        color: rgb(209, 231, 250);
+    }
+    .button {
+        padding: 1vw 2vw; 
+        font-size: 1vw; 
+        color: rgb(47, 16, 120);
+        border-radius: 1vw; 
+        cursor: pointer;
+        transition: background-color 0.25s;
+        font-weight: 600;
+    }
+}
+
