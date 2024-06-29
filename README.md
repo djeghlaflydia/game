@@ -19,4 +19,10 @@ Welcome to my JavaScript Game! This is a fun and interactive game where you are 
 
 ![image](https://github.com/djeghlaflydia/game/assets/163843966/1779b38d-6458-448e-84b1-043e0c74ad75)
 
+Enjoy playing and try to win the clock is ticking!
+Happy gaming!
 
+---
+
+**Contact Information**
+- GitHub: https://github.com/djeghlaflydia
