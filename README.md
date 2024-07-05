@@ -2,6 +2,7 @@
 
 ## Introduction
 Welcome to my JavaScript Game! This is a fun and interactive game where you are given a random target number and must increment or decrement your counter to match this target before the timer runs out. This project was created to improve my JavaScript skills and explore game development in a web environment.
+here is the link to see the project : https://djeghlaflydia.github.io/game/
 
 ## How to Play
 1. **Objective**: Reach the target number by incrementing or decrementing your counter before the timer runs out.
